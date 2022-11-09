@@ -1,0 +1,45 @@
+
+h1{
+text-align: center;
+font-family: sans-serif, serif;
+Font-size:87px;
+Color:#c7b9b1; 
+position: relative;
+Top:25px;
+}
+
+body{
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#container{
+  position: relative;
+  left:30%;
+  background-color:#c9bea1; 
+  width: 600px;
+  height: 680px;
+  border-radius: 25px;
+}
+
+header{
+  font-size: 25px;
+  position:relative;
+  left: 30%;
+}
+
+.info{
+  padding: 30px 30px 5px 30px;
+  text-align: left;
+  font-size: 1.25rem;
+  text-indent: 25px;
+  font-family: sans-serif, serif;
+}
+
+img{
+  
+  position: relative;
+  left:30%;
+}
