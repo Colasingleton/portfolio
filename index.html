@@ -1,72 +1,91 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing Page</title>
-        <script>
-            function random(phrases) {
-            var phrases = [
-                "Colors seem brighter when you’re around.",
-                "Jokes are funnier when you tell them.",
-                "You’re one of a kind!",
-                "You always know how to find that silver lining.",
-                "You could survive a Zombie apocalypse.",
-                "You’re a candle in the darkness.",
-                "Your creative potential seems limitless.",
-                "Babies and small animals probably love you.",
-                "There’s ordinary, and then there’s you.",
-                "You’re even better than a unicorn, because you’re real."
-                ];
-        
-            /* generates random phrases*/
-            var newPhrase = phrases[Math.floor((Math.random() * phrases.length))];
-        
-            document.getElementById("generate-btn").innerHTML = newPhrase;
+<!doctype html> 
 
-            }
-        </script>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <body>
-        <header id="into">  
-        <!--navbar-->
-        <nav>
-            <ul>
-                <li><a href="#hi">Hi</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!--end of navbar-->
-        </header>
-        <!--intro-->
-        <div class="hi">
-        <p>I'm Cola</p>
-        <p class="title">A Web Developer</p>
-        <h1 id="hi" class="welcome">Welcome to my project portfolio
-</h1>
-    </div>
-    <!--projects containr-->
-        <div id="projects" class="container">
-        <div class="img-link">
-            <a target="_blank" rel="noopener noreferrer" href="file:///Users/colasingleton/Desktop/Cola's%20Projects/about-me.html"><img id="links" src="about-me.jpg"></a>
-        </div>
-        <div class="img-link">
-            <a target="_blank" rel="noopener noreferrer" href="file:///Users/colasingleton/Desktop/Cola's%20Projects/css/puppy.html"><img id="links" src="puppy.jpg"></a>
-        </div>
-        <!-- <img id="links" src="under-construction.jpg">-->
-        <div id="randomizer" class="img-link">
-            
-            <button id="generate-btn" onclick="random()">Click me if you're feeling down<i class="fa fa-sun-o" style="color:#fcba03;" aria-hidden="true"></i>
-            </button>
+<html lang="en"> 
+
+    <head> 
+
+        <meta charset="utf-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <title>Landing Page</title> 
+
+        <link rel="stylesheet" href="styles.css"> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <body> 
+
+      <header id="into">   
+
+        <!--navbar--> 
+
+        <nav> 
+
+            <ul> 
+
+                <li><a href="#hi">Hi</a></li> 
+
+                <li><a href="#projects">Projects</a></li> 
+
+                <li><a href="#contact">Contact</a></li> 
+
+            </ul> 
+
+        </nav> 
+
+        <!--end of navbar--> 
+
+      </header> 
+
+      <div class="hi"> 
+
+        <p>I'm Cola</p> 
+
+        <p class="title">A Web Developer</p> 
+
+        <h1 id="hi" class="welcome">Welcome to my project portfolio 
+
+</h1> 
+
+    </div> 
+
+    <!--projects containr--> 
+
+       <div id="projects" class="container"> 
+
+        <div class="img-link"> 
+
+            <a target="_blank" rel="noopener noreferrer" href="about-me.html"><img id="links" src="about-me.jpg"></a> 
+
         </div> 
-        </div>
-        <!--end of projects container-->
-        <div id="contact">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cola-singleton-13231621b">
-        <button id="contact-btn">linked<i class="fa fa-linkedin-square fa-lg"></i></button></a>
-        <button id="contact-btn">colasingleton@gmail.com</button>
-        </div>
-    </body>
-</html>
+
+        <div class="img-link"> 
+
+           <a target="_blank" rel="noopener noreferrer" href="puppy.html"><img id="links" src="puppy.jpg"></a> 
+
+        </div> 
+
+         
+
+        <div class="img-link"> 
+
+            <img id="links" src="under-construction.jpg"> 
+
+        </div>  
+
+       </div> 
+
+       <!--end of projects container--> 
+
+       <div id="contact"> 
+
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cola-singleton-13231621b"> 
+
+            <button>Linked<i class="fa fa-linkedin-square fa-lg"></i></button></a> 
+
+        <button>colasingleton@gmail.com</button> 
+
+       </div> 
+
+    </body> 
+
+</html> 
