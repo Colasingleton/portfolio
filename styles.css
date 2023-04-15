@@ -170,70 +170,48 @@ nav > ul {
 
   
 
-#links{ 
-
-    border: 1px solid; 
-
-    border-radius: 10%; 
-
-    height:300px; 
-
-    width: 325px; 
-
-} 
-
+#links, #generate-btn{
+    border: 1px solid;
+    border-radius: 10%;
+    height:300px;
+    width: 325px;
+}
   
 
-#links:hover{ 
+#links, #generate-btn{
+    border: 1px solid;
+    border-radius: 10%;
+    height:300px;
+    width: 325px;
+}
 
-  border: 2px solid #d31219; 
+#generate-btn:hover, #links:hover{
+  border: 2px solid #d31219;
+}
 
-  
+#generate-btn {
+  font: 2rem "Georgia", Arial, sans-serif
+}
 
-} 
+#contact{
+    background-color: antiquewhite;
+    left:0;
+    height: 150px;
+    width: 100%;
+}
 
-  
+#contact-btn{
+  font-size: 1.5rem;
+  border: 0;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: antiquewhite;
 
-#contact{ 
+}
+#contact-btn:hover,
+#contact-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #365c6e;
+  transform: translateY(-0.25em);
+}
 
-    background-color: antiquewhite; 
-
-    left:0; 
-
-    height: 150px; 
-
-    width: 100%; 
-
-    
-
-} 
-
-  
-
-button{ 
-
-  font-size: 1.5rem; 
-
-  border: 0; 
-
-  display: inline-block; 
-
-  padding: 1rem 2rem; 
-
-  border-radius: 10px; 
-
-  background-color: antiquewhite; 
-
-  
-
-} 
-
-button:hover, 
-
-button:focus { 
-
-  box-shadow: 0 0.5em 0.5em -0.4em #365c6e; 
-
-  transform: translateY(-0.25em); 
-
-} 
